@@ -15,7 +15,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Santiago Velosa**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
