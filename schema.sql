@@ -47,3 +47,20 @@ ADD CONSTRAINT animals_constraint_two
 FOREIGN KEY (owners_id)
 REFERENCES owners (id)
 ON DELETE CASCADE;
+
+CREATE TABLE vets(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(100),
+  age INT,
+  date_of_graduation DATE,
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE specializations(
+  specialties VARCHAR(100)
+);
+
+CREATE TABLE visits(
+  visit VARCHAR(100),
+  date_of_visit DATE
+);
