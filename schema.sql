@@ -57,10 +57,12 @@ CREATE TABLE vets(
 );
 
 CREATE TABLE specializations(
+  name VARCHAR(100),
   specialties VARCHAR(100)
 );
 
 CREATE TABLE visits(
-  visit VARCHAR(100),
+  animal_name VARCHAR(100),
+  vet_name VARCHAR(100),
   date_of_visit DATE
 );
