@@ -57,16 +57,14 @@ CREATE TABLE vets(
 );
 
 CREATE TABLE specializations(
-  name VARCHAR(100),
-  specialties VARCHAR(100)
+  vet_id INT GENERATED ALWAYS AS IDENTITY,
+  specialties VARCHAR(100),
+  PRIMARY KEY(vet_id)
 );
-ALTER TABLE specializations
-ADD COLUMN ID SERIAL PRIMARY KEY;
 
 CREATE TABLE visits(
-  animal_name VARCHAR(100),
+  animal_id INT GENERATED ALWAYS AS IDENTITY(100),
   vet_name VARCHAR(100),
-  date_of_visit DATE
+  date_of_visit DATE,
+  PRIMARY KEY(animal_id)
 );
-ALTER TABLE visits
-ADD COLUMN ID SERIAL PRIMARY KEY;
