@@ -60,9 +60,13 @@ CREATE TABLE specializations(
   name VARCHAR(100),
   specialties VARCHAR(100)
 );
+ALTER TABLE specializations
+ADD COLUMN ID SERIAL PRIMARY KEY;
 
 CREATE TABLE visits(
   animal_name VARCHAR(100),
   vet_name VARCHAR(100),
   date_of_visit DATE
 );
+ALTER TABLE visits
+ADD COLUMN ID SERIAL PRIMARY KEY;
