@@ -34,3 +34,34 @@ UPDATE animals SET owners_id = 4 WHERE name LIKE '%Squirtle%';
 UPDATE animals SET owners_id = 4 WHERE name LIKE '%Blossom%';
 UPDATE animals SET owners_id = 5 WHERE name LIKE '%Angemon%';
 UPDATE animals SET owners_id = 5 WHERE name LIKE '%Boarmon%';
+
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('William Tatcher', 45, '2000-04-23');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('Maisy Smith', 26, '2019-01-17');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('Stephanie Mendez', 64, '1981-05-04');
+INSERT INTO vets (name, age, date_of_graduation) VALUES ('Jack Harkness', 38, '2008-06-08');
+
+INSERT INTO specializations VALUES ('William Tatcher', 'Pokemon');
+INSERT INTO specializations VALUES ('Stephanie Mendez', 'Pokemon and Digimon');
+INSERT INTO specializations VALUES ('Jack Harkness', 'Digimon');
+
+INSERT INTO visits VALUES ('Agumon', 'William Tatcher', '2020-05-24');
+INSERT INTO visits VALUES ('Agumon', 'Stephanie Mendez', '2020-07-22');
+INSERT INTO visits VALUES ('Gabumon', 'Jack Harkness', '2021-02-22');
+INSERT INTO visits VALUES ('Agumon', 'William Tatcher', '2020-05-24');
+INSERT INTO visits VALUES ('Pikachu', 'Maisy Smith', '2020-01-05');
+INSERT INTO visits VALUES ('Pikachu', 'Maisy Smith', '2020-03-08');
+INSERT INTO visits VALUES ('Pikachu', 'Maisy Smith', '2020-05-14');
+INSERT INTO visits VALUES ('Devimon', 'Stephanie Mendez', '2021-05-04');
+INSERT INTO visits VALUES ('Charmander', 'Jack Harkness', '2021-02-24');
+INSERT INTO visits VALUES ('Plantmon', 'Maisy Smith', '2019-12-21');
+INSERT INTO visits VALUES ('Plantmon', 'William Tatcher', '2020-08-10');
+INSERT INTO visits VALUES ('Plantmon', 'Maisy Smith', '2021-04-07');
+INSERT INTO visits VALUES ('Squirtle', 'Stephanie Mendez', '2019-09-29');
+INSERT INTO visits VALUES ('Angemon', 'Jack Harkness', '2020-10-03');
+INSERT INTO visits VALUES ('Angemon', 'Jack Harkness', '2020-11-04');
+INSERT INTO visits VALUES ('Boarmon', 'Maisy Smith', '2019-01-24');
+INSERT INTO visits VALUES ('Boarmon', 'Maisy Smith', '2019-05-15');
+INSERT INTO visits VALUES ('Boarmon', 'Maisy Smith', '2020-02-27');
+INSERT INTO visits VALUES ('Boarmon', 'Maisy Smith', '2020-08-03');
+INSERT INTO visits VALUES ('Blossom', 'Stephanie Mendez', '2020-05-24');
+INSERT INTO visits VALUES ('Blossom', 'William Tatcher', '2021-01-11');
