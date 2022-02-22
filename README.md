@@ -2,6 +2,8 @@
 
 > This project is a database designed to store information about the animals that are treated at the Vet Clinic.
 
+![screenshot](schema-diagram.png)
+
 
 ## Getting Started
 
